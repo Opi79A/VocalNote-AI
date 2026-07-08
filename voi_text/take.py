@@ -22,7 +22,7 @@ def record_text():
     return
 
 def output_text(text):
-    # أضفنا encoding="utf-8" هنا لحل مشكلة الرموز الغريبة
+   
     with open("output.txt", "a", encoding="utf-8") as f:
         f.write(text)
         f.write("\n")
